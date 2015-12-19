@@ -1,6 +1,8 @@
 # /bin/sh
 
-#在 Linux 系统中，与用户管理有关的文件主要有如下几个：分别是/etc/passwd，/etc/shadow，/etc/gfoup，/etc/gshadow 。它们分别与用户的账号，密码，用户组及用户组密码有关。我们创建用户也就是跟这几个文件打交道。
+#在 Linux 系统中，与用户管理有关的文件主要有如下几个：分别是/etc/passwd，/etc/shadow，
+#/etc/gfoup，/etc/gshadow 。它们分别与用户的账号，密码，用户组及用户组密码有关。
+#我们创建用户也就是跟这几个文件打交道。
 
 #创建用户需要root权限，切换到root。
 sudo su root
