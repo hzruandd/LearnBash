@@ -25,6 +25,7 @@ done
 
 #for file in `pwd`/*.sh
 #for lp in $(ls *.sh)
+#for lp in `ls`
 for lp in *.sh;
 do
     echo "filename: $lp"
@@ -34,7 +35,8 @@ done
 
 #for num in `seq 2 10` #2->start, 10-> end
 #for num in $(seq 2 10)
-for num in `seq 10`
+#for num in `seq 10`
+for ((num=0;num<10;num++))
 do
     if [ `expr $num % 2 ` = 0 ]
     then
@@ -51,6 +53,19 @@ do
 done
 
 
+#others for demo
+#for lp in $*;
+#for file in /tmp;
+arr=("a" "b" "c")
+for lp in ${arr[@]}
+do
+    echo "$lp"
+done
+##
+for i in {1..10};
+do
+    echo "{1..10} for type: $i"
+done
 
 
 
