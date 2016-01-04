@@ -117,7 +117,34 @@ do
          break 
       ;;
       *) echo "ERROR: Invalid selection" 
-        exit 1
+         break 
+#        exit 1
       ;;
    esac
 done
+
+
+echo "a is 8 ,b is 4. Please select your method: "
+
+a=8
+b=4
+
+select var in "a+b" "a-b" "a*b" "a/b"
+do
+    break
+done
+
+case $var in
+    "a+b")
+        echo 'a+b= '`expr $a + $b`;;
+    "a-b")
+        echo 'a-b= '`expr $a - $b`;;
+    "a*b")
+        echo 'a*b= '`expr $a \* $b`;;
+    "a/b")
+        echo 'a/b= '`expr $a / $b`;;
+    *)
+        echo "input error"
+        exit 1
+
+esac
