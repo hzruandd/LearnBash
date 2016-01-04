@@ -82,7 +82,7 @@ then
         then
             echo "yes, i am empty"
         fi
-        echo "a = b"
+        echo "a = a"
     fi
   echo "2<4" 
 elif [ 3 -ne 4 ];
