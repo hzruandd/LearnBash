@@ -148,3 +148,15 @@ case $var in
         exit 1
 
 esac
+
+#while [ "$yn" != "yes" -a "$yn" !=  "YES" ]
+#do
+#	read -p "input yes/YES to stop this program : " yn
+#done
+#echo "OK! you input the correct answer"
+
+until [ "$yn" == "yes" -o "$yn" == "YES" ]
+do
+	read -p "input the yes/YES to stop this program: " yn
+done
+echo "OK! you input the correct answer"
