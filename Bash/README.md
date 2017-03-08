@@ -8,7 +8,7 @@ Bash脚本可以用狭义和广义两个角度来理解：
 - 狭义角度讲，Bash是一门编程语言，更为确切的说是一种脚本语言。
 - 广义角度讲，Bash包括内嵌命令和外部命令，比如sed，grep等等。
 
-|![](http://tiswww.case.edu/php/chet/img/bash-org.jpg)   |![](http://img.my.csdn.net/uploads/201406/01/1401591724_9242.png)
+|![](http://tiswww.case.edu/php/chet/img/bash-org.jpg) 
 |:------|-------:|
 <br><br><br><br>
 >Shell
